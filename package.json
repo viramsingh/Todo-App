@@ -1,9 +1,11 @@
 {
+  
   "name": "todo-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+  
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
@@ -11,7 +13,9 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  
   "homepage": "https://viramsingh.github.io/Todo-App",
+  
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
